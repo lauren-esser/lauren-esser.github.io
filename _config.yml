@@ -1,11 +1,11 @@
 # Site settings
 author: Lauren Esser
-title: 
+title: DataScience101 Blog
 header-img: img/home-bg.png
 email: lauren.pasciak@gmail.com
 copyright_name: Lauren Esser
 description: > # this means to ignore newlines until "baseurl:"
-  
+  From Teacher to Data Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  lauren-esser
