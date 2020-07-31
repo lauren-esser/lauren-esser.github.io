@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Data Visualizations: The When and How"
-date:       2020-07-31 19:04:26 +0000
+date:       2020-07-31 15:04:27 -0400
 permalink:  data_visualizations_the_when_and_how
 ---
 
