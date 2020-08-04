@@ -89,7 +89,7 @@ ax.set(ylabel="",
        title= "Domestic vs. Worldwide Gross by Genre")
 sns.despine(left=True, bottom=True)
 
-http://localhost:8888/view/output_75_0.png
+![](http://localhost:8888/view/output_75_0.png)
 
 
 
