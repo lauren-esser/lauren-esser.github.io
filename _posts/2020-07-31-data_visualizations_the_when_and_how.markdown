@@ -25,7 +25,7 @@ ax.set_title('Directors With Highest Average Domestic Gross', fontsize = 20)
 ax.set_ylabel('Director', fontsize = 16)
 ax.set_xlabel('Domestic Gross in 100 million', fontsize = 16)
 
-![](http://localhost:8888/view/output_61_1.png)]
+(http://localhost:8888/view/output_61_1.png)]
 
 
 *Some additional useful options to use on barplot are hue, hue_order, orient (for vertical or horizontal), color, palette, saturation
@@ -36,7 +36,7 @@ Displots are useful to see the distribution of data. Much like a histogram, but 
 
 ax = sns.distplot(df1['runtimeMinutes'])
 
-![](http://localhost:8888/view/output_98_0.png)
+(http://localhost:8888/view/output_98_0.png)
 
 ## Regression Plot
 Regression plots are much like scatterplots except there is a line added to show regression. (Basically a line through the scatterplot data to show how x and y relate). Scatterplots themselves are used to show a correlation between data and how one variable is impacted by another. The closer the correlation, the tighter the points will be together. The example I used is to show movie runtime vs. audience ratings. 
@@ -51,7 +51,7 @@ ax.set_xlabel('Runtime (min)', fontsize = 16)
 ax.set_ylabel('Average Rating (1-10)', fontsize = 16)
 ax.set(ylim=(0, 12)); 
 
-![](http://localhost:8888/view/output_94_0.png)
+(http://localhost:8888/view/output_94_0.png)
 
 * Some additional useful options to use on a regression plot are style, legend, hue, size, palette, hue_order, sizes, linewidth
 
@@ -61,7 +61,7 @@ Boxplots are great to use with data where you want to show specifics. Examples o
 
 ax = sns.boxplot(x=df["runtimeMinutes"], showmeans = True)
 
-![](http://localhost:8888/view/output_97_0.png)
+(http://localhost:8888/view/output_97_0.png)
 
 
 
@@ -89,6 +89,8 @@ ax.set(ylabel="",
        title= "Domestic vs. Worldwide Gross by Genre")
 sns.despine(left=True, bottom=True)
 
-![](http://localhost:8888/view/output_75_0.png)
+http://localhost:8888/view/output_75_0.png
+
+
 
 
