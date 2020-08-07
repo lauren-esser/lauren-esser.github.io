@@ -31,7 +31,7 @@ ax.set_xlabel('Domestic Gross in 100 million', fontsize = 16)
 
 *Barplot*:
 
-<img src = 'https://raw.githubusercontent.com/lauren-esser/Mod-1-Project/master/Images/download.png, width = 50%'>
+<img src = 'https://raw.githubusercontent.com/lauren-esser/Mod-1-Project/master/Images/download.png' width = '50%'>
 
 ## Distplot
 Distplots are useful to see the distribution of data. Much like a histogram, but with a line over it for additional visualization. This distplot below shoes the distribution of runtime for movies. 
@@ -106,6 +106,6 @@ sns.despine(left=True, bottom=True)
 
 *Stacked Barplot:*
 
-<img src = 'https://raw.githubusercontent.com/lauren-esser/Mod-1-Project/master/Images/download%20(1).png'>
+<img src = 'https://raw.githubusercontent.com/lauren-esser/Mod-1-Project/master/Images/download%20(1).png' width = '50%' >
 
 
