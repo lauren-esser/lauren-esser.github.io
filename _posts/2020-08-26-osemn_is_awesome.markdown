@@ -64,7 +64,22 @@ and finally normalize the data set:
 
 
 # Explore
+Explore is where the data scientist will perform their EDA (Exploratory Data Analysis), which is another way of saying the data scientist will make visualizations to better understand the data before modeling. Visualizations included in the explore step are often distplots, kernel density estimates, scatterplots, and qqplots (must create OLS Regression before creating QQPlot). Often times Scrub and Explore overlap in the OSEMN process. It is in this step that numpy, seaborn, pandas, and scipy come in handy. 
 
+Distplot:
+'sns.distplot(df)'
+
+Scatterplot:
+'sns.scatterplot(df)'
+
+Jointplot (Combines Distplot and Scatterplot):
+'sns.jointplot(data=df, x='col', y='dependent_col', kind='reg')'
+
+QQplot:
+sm.graphics.qqplot(model.resid, fit=True, line='45')
+
+Kernel Density Estimates:
+'sns.kdeplot(df)'
 # Model
 
 # N = Interpret
