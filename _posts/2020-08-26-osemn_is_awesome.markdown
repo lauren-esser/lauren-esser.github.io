@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "OSEMN is AWESOME"
-date:       2020-08-26 12:53:23 +0000
+date:       2020-08-26 08:53:24 -0400
 permalink:  osemn_is_awesome
 ---
 
@@ -18,4 +18,4 @@ Obtaining the data can be performed in a variety of ways. Depending on what comp
 # S - Scrub Data
 Scrubbing data is one of the most time consuming aspects of a data scientists career. However it is cruical to get the data into a format that is easier to use. Usually whatever data you obtain there will be something missing or wrong with it. Common items to look out for are Null values. Once identifying the Nulls it is esential to decide how you are going to handle them. Code that is commonly used for handling Null values is listed below:
 
-'df.isna().sum()' 
+'''df.isna().sum()'''
