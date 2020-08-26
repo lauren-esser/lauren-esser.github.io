@@ -81,5 +81,6 @@ sm.graphics.qqplot(model.resid, fit=True, line='45')
 Kernel Density Estimates:
 'sns.kdeplot(df)'
 # Model
+The goal of modeling is inference or prediction. Inference is asking "How does X affect Y?" whereas prediction asks "How can I use X to predict Y?"
 
 # N = Interpret
