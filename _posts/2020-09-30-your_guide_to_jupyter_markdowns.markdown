@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Your Guide to Jupyter Markdowns"
-date:       2020-09-30 20:15:08 +0000
+date:       2020-09-30 16:15:08 -0400
 permalink:  your_guide_to_jupyter_markdowns
 ---
 
@@ -49,12 +49,41 @@ Notice all of the images in my blog? Well here is how I do it!
 
 ![](file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.09.25%20PM.png)
 
-**What it looks like** 
-
-
+**I'd say here's how it looks, but just look above!** 
 
 ### Line Breaks
+You have no idea how many times I have tried to make a line break only to hit shirt+enter and see no break whatsoever. Therefore, if you need a line break in your jupyter notebook markdown make sure to hit enter *two or more times*, depending on how large you would like the break.
+
+**Here's how it looks**
+*What to do*
+<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.22.13%20PM.png'>
+
+*What NOT to do*
+<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.22.28%20PM.png'>
+
 ### Lists
+Making lists is very similar to what you would do anywhere else. 
+
+>Here is my unordered list:
+- apples
+- bananas
+- oranges
+
+**Here's how it looks**
+<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.25.01%20PM.png'>
+
+But what if I wanted to list my favorite fruits in order?
+
+>Here is my ordered list:
+1. Oranges
+2. Apples
+3. Bananas
+
+**Here's how it looks**
+<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.26.30%20PM.png'>
+
+
+
 ### Lines
 ### Paragraphs
 ### Text
