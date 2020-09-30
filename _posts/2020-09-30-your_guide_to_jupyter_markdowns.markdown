@@ -23,15 +23,12 @@ Just because we are working with numbers and code, doesn't mean we need to have 
 > > > Or if you REALLY wanted a nest within a nest you can add an additional greater than sign.
 
 
-
-
 ### Headings
 There are six different options for headings. The more #'s there are the smaller the heading. See below.
 
-<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.02.42%20PM.png'>
+<img src = ''>
 
 **Here's how it looks**
-
 # Header 1
 ## Header 2
 ### Header 3
@@ -45,14 +42,13 @@ If you would like to add a hyperlink that doesn't show the entire weblink you ca
 
 **Here's how you do it**
 
-<img src ='file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.07.18%20PM.png'>
+<img src =''>
 
 ### Images
 Notice all of the images in my blog? Well here is how I do it! 
 
-<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.11.27%20PM.png'>
+<img src = ' '>
 
-![](file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.09.25%20PM.png)
 
 **I'd say here's how it looks, but just look above!** 
 
@@ -61,10 +57,10 @@ You have no idea how many times I have tried to make a line break only to hit sh
 
 **Here's how it looks**
 *What to do*
-<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.22.13%20PM.png'>
+<img src = ''>
 
 *What NOT to do*
-<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.22.28%20PM.png'>
+<img src = ''>
 
 ### Lists
 Making lists is very similar to what you would do anywhere else. 
@@ -75,7 +71,7 @@ Making lists is very similar to what you would do anywhere else.
 - oranges
 
 **Here's how it looks**
-<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.25.01%20PM.png'>
+<img src = ''>
 
 But what if I wanted to list my favorite fruits in order?
 
@@ -85,7 +81,7 @@ But what if I wanted to list my favorite fruits in order?
 3. Bananas
 
 **Here's how it looks**
-<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.26.30%20PM.png'>
+<img src = ''>
 
 
 
@@ -108,6 +104,17 @@ ___
 ### Cell Background Color
 ### Tasks List
 ### Text Box Color
+BLUE:
+<div class='alert alert-block alert-info">
+
+<b>Tip:</b> Use blue boxes for tipes and notes.</div>
+
+YELLOW:
+<div class="alert alert-block alert-warning">
+<b>Example:</b> Use yellow boxes for examples that are not inside code cells, or use for mathematical formulas if needed. Typically also used to display warning messages.
+
+
 ### Text Color
 ### Text Font
+<span style="font-family:Comic Sans MC">This is a text</span>
 
