@@ -14,6 +14,8 @@ Just because we are working with numbers and code, doesn't mean we need to have 
 
 <img scr = 'https://docs.google.com/drawings/d/1z62YZQM-mNNHMabI7u1wl7nXk-JOThvesWjkcCVQHls/edit?usp=sharing'>
 
+<img scr = 'https://docs.google.com/drawings/d/e/2PACX-1vR_MODhPDEDue__93s90qa4GKmSBUz0ICG0skvLbWx722YGAVMKNtH3spjLJgReIEomqI-ddS5elQtB/pub?w=281&h=187'>
+
 **Here's how it looks**
 
 > This is how we create a block quote in jupyter notebook
