@@ -10,9 +10,9 @@ Just because we are working with numbers and code, doesn't mean we need to have 
 
 ## The Basics
 ### Block Quotes
-![](http://http://localhost:8890/view/Desktop/Screen%20Shot%202020-09-30%20at%204.40.05%20PM.png)
+![](http://https://docs.google.com/drawings/d/1z62YZQM-mNNHMabI7u1wl7nXk-JOThvesWjkcCVQHls/edit?usp=sharing)
 
-<img scr = 'http://localhost:8890/view/Desktop/Screen%20Shot%202020-09-30%20at%204.40.05%20PM.png'>
+<img scr = 'https://docs.google.com/drawings/d/1z62YZQM-mNNHMabI7u1wl7nXk-JOThvesWjkcCVQHls/edit?usp=sharing'>
 
 **Here's how it looks**
 
