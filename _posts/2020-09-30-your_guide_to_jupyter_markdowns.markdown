@@ -10,13 +10,16 @@ Just because we are working with numbers and code, doesn't mean we need to have 
 
 ## The Basics
 ### Block Quotes
+![](http://http://localhost:8890/view/Desktop/Screen%20Shot%202020-09-30%20at%204.40.05%20PM.png)
+
+<img scr = 'http://localhost:8890/view/Desktop/Screen%20Shot%202020-09-30%20at%204.40.05%20PM.png'>
+
+**Here's how it looks**
+
 > This is how we create a block quote in jupyter notebook
 > > If you would like a quote to be nested with your your block quote you can add one more greater than sign.
 > > > Or if you REALLY wanted a nest within a nest you can add an additional greater than sign.
 
-**Here's how it looks**
-
-<img src = 'file:///Users/laurenesser/Desktop/Screen%20Shot%202020-09-30%20at%204.00.21%20PM.png'>
 
 
 
@@ -85,9 +88,19 @@ But what if I wanted to list my favorite fruits in order?
 
 
 ### Lines
-### Paragraphs
-### Text
+If you want a line break, there is no need to create the line by doing dash marks all the way across the screen simply place three dashes and hit enter. You may choose any of the following: 
+---
+***
+___
 
+**Here's how it looks**
+
+
+### Text
+**BOLD**
+*Italics*
+***Bold and Italized***
+~~Strikethrough~~
 
 ## Unique
 ### Cell Background Color
