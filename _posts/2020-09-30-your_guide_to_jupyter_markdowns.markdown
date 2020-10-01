@@ -44,7 +44,7 @@ ________________________________________________________________________________
 ## Images
 Notice all of the images in my blog? Well here is how I do it! 
 
-<img src = 'url link goes here'>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSWdn7MGPWxargMt7tHC5PRcvNy21WZ4w3kwKi_IVkoxeHjrE92lRPuu3dUF9A8SKiTQm74F84U_3h3/pub?w=284&amp;h=100">
 
 **I'd say here's how it looks, but just look above!** 
 
@@ -53,6 +53,7 @@ ________________________________________________________________________________
 You have no idea how many times I have tried to make a line break only to hit shift+enter and see no break whatsoever. Therefore, if you need a line break in your jupyter notebook markdown make sure to hit enter *two or more times*, depending on how large you would like the break.
 
 **Here's how it looks**
+
 *What to do*
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQMPUcmDgLoCcIQlVhs-yYNjrDEf5k3KjdPZD2kj7f_BjGJw9N1AXJPkyigHzzli5g0bZ-1cQZCTHJ_/pub?w=485&amp;h=100">
 
@@ -85,12 +86,8 @@ But what if I wanted to list my favorite fruits in order?
 _______________________________________________________________________________________
 ## Lines
 If you want a line break, there is no need to create the line by doing dash marks all the way across the screen simply place three dashes and hit enter. You may choose any of the following: 
----
 
-***
-
-___
-
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRfe31fyYCbb_Xxr2yF_0LCYkbiZ9UL_uWBobbvB6vxwzkkvPtbEzvrShOhunus7Xyq2Xi7GPuwKinh/pub?w=100&amp;h=126">
 
 **Here's how it looks**
 
