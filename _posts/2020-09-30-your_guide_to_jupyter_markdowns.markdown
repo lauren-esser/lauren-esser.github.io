@@ -21,7 +21,7 @@ Just because we are working with numbers and code, doesn't mean we need to have 
 > > If you would like a quote to be nested with your your block quote you can add one more greater than sign.
 > > > Or if you REALLY wanted a nest within a nest you can add an additional greater than sign.
 
-
+_______________________________________________________________________________________
 ### Headings
 There are six different options for headings. The more #'s there are the smaller the heading. See below.
 
@@ -119,6 +119,9 @@ ___
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRRvlRy5XmYfshGbGIdsUAW1yvOcAhMZIT5HEG2-jRXT78pBuH3eAcD-hl5MB8EHFXJczMcbWKWiJA5/pub?w=293&amp;h=140">
 
 ## The Advanced
+### Make your markdown look like code
+'Here is some code!'
+
 
 ### Tasks List
 ### Text Box Color
