@@ -165,25 +165,45 @@ Here is a red background box. This usually demonstrates bad news. </div>
 
 _______________________________________________________________________________________
 ## Text Color
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTKsPHQ2h8YcDVd28T_GlLCxmGe8wVQWSp9TfPqEqatHrEtQWYJXutc3MKPvV4_-DTW1v2udDLM7cLB/pub?w=393&amp;h=262">
+
+
 <font color=green>Hey this is green text</font>
+
 <font color=blue>Hey this is blue text</font>
+
 <font color=yellow>Hey this is yellow text</font>
+
 <font color=pink>Hey this is pink text</font>
+
 <font color=purple>Hey this is purple text</font>
+
 <font color=red>Hey this is red text</font>
+
 <font color=orange>Hey this is orange text</font>
+
 <font color=brown>Hey this is brown text</font>
-
-
-
-
-
-
-
 
 _______________________________________________________________________________________
 ## Text Font
-<span style="font-family:Comic Sans MC">This is a text</span>
+<span style="font-family:ComicSans">This is a text in Cosmic Sans MC</span>
+
+<span style="font-family:Helvetica">This is a text in Helvetica</span>
+
+<span style="font-family:Times">This is a text in Times</span>
+
+<span style="font-family:Verdana">This is a text in Verdana</span>
+
+<span style="font-family:Arial">This is a text in Arial</span>
+
+<span style="font-family:Courier">This is a text in Courier</span>
+
+<span style="font-family:Georgia">This is a text in Georgia</span>
+
+
+
+
+
 
 _______________________________________________________________________________________
 ## Embedding your tableu
