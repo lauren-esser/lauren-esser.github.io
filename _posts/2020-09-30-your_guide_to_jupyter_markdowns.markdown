@@ -170,22 +170,33 @@ ________________________________________________________________________________
 
 <font color=green>Hey this is green text</font>
 
+
 <font color=blue>Hey this is blue text</font>
+
 
 <font color=yellow>Hey this is yellow text</font>
 
+
 <font color=pink>Hey this is pink text</font>
+
 
 <font color=purple>Hey this is purple text</font>
 
+
 <font color=red>Hey this is red text</font>
 
+
 <font color=orange>Hey this is orange text</font>
+
 
 <font color=brown>Hey this is brown text</font>
 
 _______________________________________________________________________________________
 ## Text Font
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRYMBIUfZEKxRlAt-qEBy5Jv5lnYTddHwwu4d-i1UvEUw8XUlhkYH1ycbC3EIS5nhDjTyJlWUvf3Qqw/pub?w=389&amp;h=261">
+
+
 <span style="font-family:ComicSans">This is a text in Cosmic Sans MC</span>
 
 <span style="font-family:Helvetica">This is a text in Helvetica</span>
@@ -200,11 +211,8 @@ ________________________________________________________________________________
 
 <span style="font-family:Georgia">This is a text in Georgia</span>
 
-
-
-
-
-
+_______________________________________________________________________________________
+## Highlight your text
 _______________________________________________________________________________________
 ## Embedding your tableu
 %%HTML and then paste your embed link provided from tableu prior to publishing.
