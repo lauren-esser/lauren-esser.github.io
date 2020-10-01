@@ -116,7 +116,7 @@ ________________________________________________________________________________
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRRvlRy5XmYfshGbGIdsUAW1yvOcAhMZIT5HEG2-jRXT78pBuH3eAcD-hl5MB8EHFXJczMcbWKWiJA5/pub?w=293&amp;h=140">
 
 _______________________________________________________________________________________
-## The Advanced
+<h1><center>The Advanced</center></h1>
 ## Make your markdown look like code
 'Here is some code!'
 
