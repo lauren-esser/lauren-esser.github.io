@@ -105,8 +105,8 @@ ___
 ### Tasks List
 ### Text Box Color
 BLUE:
-<div class='alert alert-block alert-info">
 
+<div class='alert alert-block alert-info">
 <b>Tip:</b> Use blue boxes for tipes and notes.</div>
 
 YELLOW:
