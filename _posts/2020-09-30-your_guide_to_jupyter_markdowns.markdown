@@ -169,26 +169,19 @@ ________________________________________________________________________________
 
 
 <font color=green>Hey this is green text</font>
-
-
+.
 <font color=blue>Hey this is blue text</font>
-
-
+.
 <font color=yellow>Hey this is yellow text</font>
-
-
+.
 <font color=pink>Hey this is pink text</font>
-
-
+.
 <font color=purple>Hey this is purple text</font>
-
-
+.
 <font color=red>Hey this is red text</font>
-
-
+.
 <font color=orange>Hey this is orange text</font>
-
-
+.
 <font color=brown>Hey this is brown text</font>
 
 _______________________________________________________________________________________
