@@ -22,7 +22,7 @@ Just because we are working with numbers and code, doesn't mean we need to have 
 ### Headings
 There are six different options for headings. The more #'s there are the smaller the heading. See below.
 
-<img src = ''>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTxBIrco2cu7NsnyKVJ9KlYE0afuo112113jetl8OiBmmcYrVFeO5WufFVSTUZ1aZO6MvY9kX6-kC0Y/pub?w=276&amp;h=288">
 
 **Here's how it looks**
 # Header 1
@@ -38,63 +38,82 @@ If you would like to add a hyperlink that doesn't show the entire weblink you ca
 
 **Here's how you do it**
 
-<img src =''>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQm8t1Qu4WmrA8Doe4ZzIkiXUkeRx03sZ6eqI_ZdrRxRT923CBFjPZR0E1ecVOEo-hSGF2HNaSf3TS1/pub?w=192&amp;h=100">
+
 
 ### Images
 Notice all of the images in my blog? Well here is how I do it! 
 
-<img src = ' '>
-
+<img src = 'url link goes here'>
 
 **I'd say here's how it looks, but just look above!** 
 
+
 ### Line Breaks
-You have no idea how many times I have tried to make a line break only to hit shirt+enter and see no break whatsoever. Therefore, if you need a line break in your jupyter notebook markdown make sure to hit enter *two or more times*, depending on how large you would like the break.
+You have no idea how many times I have tried to make a line break only to hit shift+enter and see no break whatsoever. Therefore, if you need a line break in your jupyter notebook markdown make sure to hit enter *two or more times*, depending on how large you would like the break.
 
 **Here's how it looks**
 *What to do*
-<img src = ''>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQMPUcmDgLoCcIQlVhs-yYNjrDEf5k3KjdPZD2kj7f_BjGJw9N1AXJPkyigHzzli5g0bZ-1cQZCTHJ_/pub?w=485&amp;h=100">
+
 
 *What NOT to do*
-<img src = ''>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTfKSMPg5jKCoV3oXQtmeskavz3Dv0oixP5aRQwOzs7FBfj5cD3SVYMIRwvNzMDSxPIn3xcEWFSGIis/pub?w=604&amp;h=100">
+
 
 ### Lists
 Making lists is very similar to what you would do anywhere else. 
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRN5_LfsGGm1p7YWQoofgUwrof3LxLSzTcRTu8bbPq8YdmEvUC1ifQnEHS30IW8ER2G3LAaVTVn_A1h/pub?w=257&amp;h=100">
+
+**Here's how it looks**
 >Here is my unordered list:
 - apples
 - bananas
 - oranges
 
-**Here's how it looks**
-<img src = ''>
-
 But what if I wanted to list my favorite fruits in order?
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSADT8fZV0ukFCpK8vanWp6Q8VdLA7R0IYWQRXWKKaPvzgRG8o5krPhG3O2ocaW68zfKONTs9_Le3eE/pub?w=233&amp;h=100">
+
+**Here's how it looks**
 >Here is my ordered list:
 1. Oranges
 2. Apples
 3. Bananas
 
-**Here's how it looks**
-<img src = ''>
-
-
 
 ### Lines
 If you want a line break, there is no need to create the line by doing dash marks all the way across the screen simply place three dashes and hit enter. You may choose any of the following: 
 ---
+
 ***
+
 ___
 
+
 **Here's how it looks**
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQa8kChejaUtV6P8NDmvBmCB5D5rG1MEmJbsRthABsWwB-7NeJ4jDmDLP_CQ5JCwhzxBWvw83Nrxn_m/pub?w=654&amp;h=178">
 
 
 ### Text
 **BOLD**
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTNpfAYDQVLvg3_WEXPOB58RVFsO4TPXIFkIUgSa2-9r6b5e2WORV6LetrXk6j5eBBOsisve-G17Iix/pub?w=275&amp;h=100">
+
 *Italics*
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQN231_6HD2_21AVNBKFexfwi1BRmY5eqOwM_Mnl_Lt_37GDj0Ok7Osv6GCYy7fdj0jMYTB28_52TkC/pub?w=298&amp;h=100">
+
 ***Bold and Italized***
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRy2q3Ik23B9aAmZMAAdKesRMCur5GJ8IGjRgqeha_4mavbHeM1fDE_HhndQkD4LdfjLRZKVfhhV23F/pub?w=287&amp;h=100">
+
+
 ~~Strikethrough~~
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRRvlRy5XmYfshGbGIdsUAW1yvOcAhMZIT5HEG2-jRXT78pBuH3eAcD-hl5MB8EHFXJczMcbWKWiJA5/pub?w=293&amp;h=140">
 
 ## Unique
 ### Cell Background Color
