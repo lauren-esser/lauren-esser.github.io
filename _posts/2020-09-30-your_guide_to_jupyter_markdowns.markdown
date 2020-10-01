@@ -165,7 +165,9 @@ Here is a red background box. This usually demonstrates bad news. </div>
 
 _______________________________________________________________________________________
 ## Text Color
+<font color=green>Hey this is green text</font>
 
+<font color = whatever color you choose> Text </font>
 _______________________________________________________________________________________
 ## Text Font
 <span style="font-family:Comic Sans MC">This is a text</span>
