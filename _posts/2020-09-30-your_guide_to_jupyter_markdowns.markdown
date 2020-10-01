@@ -130,23 +130,23 @@ ________________________________________________________________________________
 ## Text Box Color
 BLUE:
 
-<div class='alert alert-block alert-info">
+<div class="alert alert-block alert-info">
 
-Here is a blue background box. Usually this is used to notes within the Jupyter notebook. It helps catch the attention of your reader.
+Here is a blue background box. Usually this is used to notes within the Jupyter notebook. It helps catch the attention of your reader. </div>
 
 GREEN:
 <div class="alert alert-block alert-succes">
-Here is a green background box. This is usually used for exciting or positive results!
+Here is a green background box. This is usually used for exciting or positive results! </div>
 
 YELLOW:
 <div class="alert alert-block alert-warning">
 
-Here is the yellow background box. Usually this is used for mathematical formuals or small warning messages. 
+Here is the yellow background box. Usually this is used for mathematical formuals or small warning messages.  </div>
 
 RED:
 <div class="alert alert-block alert-danger">
 
-Here is a red background box. This usually demonstrates bad news.
+Here is a red background box. This usually demonstrates bad news. </div>
 
 
 _______________________________________________________________________________________
