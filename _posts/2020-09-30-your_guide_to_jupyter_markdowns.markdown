@@ -213,6 +213,9 @@ ________________________________________________________________________________
 
 _______________________________________________________________________________________
 ## Highlight your text
+<code style="background:yellow;color:black">Look here I am highlighting my text. The background color I chose is yellow and the font is black.</code>
+
+<code style="background:blue;color:green">Let's change it up. Now I am highlighting in blue and my font is green. See how easily I can change that up?</code>
 _______________________________________________________________________________________
 ## Embedding your tableu
 %%HTML and then paste your embed link provided from tableu prior to publishing.
