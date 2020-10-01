@@ -122,32 +122,40 @@ In order to make the above line look like code, place backticks (the symbol unde
 
 _______________________________________________________________________________________
 ## Tasks List
-[ ]  Let's make some check boxes
-[ ]  This makes it easier to know what we have and have not completed.
-[x] The last box is finished!
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRb2RWjUg57sSV7f_qtpiVRdeNt0rEiqcJRlIC1HthdbJPh4C6YX0nH2zIOYqt_vL9Jw5tp0HM6PBfO/pub?w=527&amp;h=100">
 
+
+**Here's how it looks**
 - [ ]  Let's make some check boxes
 - [ ]  This makes it easier to know what we have and have not completed.
 - [x] The last box is finished!
 
 _______________________________________________________________________________________
 ## Text Box Color
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTUdUx0t7oM1Jzw3PUa5LjLyb9Y8V8JT1BuBqZgzS7YIcfuNvajWoXgiGzs9CjGxKHFPihR_f-RIwHM/pub?w=717&amp;h=114">
+
 BLUE:
 
 <div class="alert alert-block alert-info">
 
 Here is a blue background box. Usually this is used to notes within the Jupyter notebook. It helps catch the attention of your reader. </div>
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTspTuSI1fVV-R71j6CHKaKX2F6A5__GYebAOMo6WvP8nlon3dVjpEvDmfLxj3vXE_i9UyLbWrFPdJq/pub?w=670&amp;h=100">
+
 GREEN:
 
 <div class="alert alert-block alert-success">
 Here is a green background box. This is usually used for exciting or positive results! </div>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTQNFDvb3fjhGt4ioPzjV1GGeOZNjXSAYhgHfCJhMJgl__yaR-qK3rZ82AJB6cIJ8S8M9J4LTJoxchS/pub?w=758&amp;h=117">
 
 YELLOW:
 
 <div class="alert alert-block alert-warning">
 
 Here is the yellow background box. Usually this is used for mathematical formuals or small warning messages.  </div>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSG7kdT8I7RPN2ChUxr1enUFQaS8Kix65nPFO6YjtZE5Znv1IgkRGydn_-lYBRFENlTPwecd-KqhU6V/pub?w=555&amp;h=100">
 
 RED:
 <div class="alert alert-block alert-danger">
