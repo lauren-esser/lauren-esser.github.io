@@ -114,11 +114,17 @@ ________________________________________________________________________________
 
 _______________________________________________________________________________________
 <h1><center>The Advanced</center></h1>
+
 ## Make your markdown look like code
-'Here is some code!'
+`Here is some code!`
+
+In order to make the above line look like code, place backticks (the symbol under the tildae ~. Top left of your keyboard) around your words. 
 
 _______________________________________________________________________________________
 ## Tasks List
+[]  Let's make some check boxes
+[]  This makes it easier to know what we have and have not completed.
+[x] The last box is finished!
 
 _______________________________________________________________________________________
 ## Text Box Color
