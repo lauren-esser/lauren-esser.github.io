@@ -122,9 +122,13 @@ In order to make the above line look like code, place backticks (the symbol unde
 
 _______________________________________________________________________________________
 ## Tasks List
-[]  Let's make some check boxes
-[]  This makes it easier to know what we have and have not completed.
+[ ]  Let's make some check boxes
+[ ]  This makes it easier to know what we have and have not completed.
 [x] The last box is finished!
+
+- [ ]  Let's make some check boxes
+- [ ]  This makes it easier to know what we have and have not completed.
+- [x] The last box is finished!
 
 _______________________________________________________________________________________
 ## Text Box Color
