@@ -8,6 +8,8 @@ permalink:  your_guide_to_jupyter_markdowns
 
 Just because we are working with numbers and code, doesn't mean we need to have a boring Jupyter notebok. In this blog we will go over different ways to spice up your notebook and make it visually pleasing for your readers. Ready? Let's get started.
 
+<h1><center>## The Basics</center></h1>
+
 ## The Basics
 
 ### Block Quotes
