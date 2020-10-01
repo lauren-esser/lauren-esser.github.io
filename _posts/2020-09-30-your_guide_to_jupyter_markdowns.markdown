@@ -6,21 +6,21 @@ permalink:  your_guide_to_jupyter_markdowns
 ---
 
 
-Just because we are working with numbers and code, doesn't mean we need to have a boring Jupyter notebok. In this blog we will go over different ways to spice up your notebook and make it visually pleasing for your readers. Ready? Let's get started.
+Just because we are working with numbers and code, doesn't mean we need to have a boring Jupyter notebook. In this blog we will go over different ways to spice up your notebook and make it visually pleasing for your readers. Ready? Let's get started.
 
 <h1><center>The Basics</center></h1>
 ## Block Quotes
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vR_MODhPDEDue__93s90qa4GKmSBUz0ICG0skvLbWx722YGAVMKNtH3spjLJgReIEomqI-ddS5elQtB/pub?w=281&amp;h=187">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vThQarn8PWuEFw0my6F56HCgfYixBCZytVNTQRapiDfkmMRhv7Jj38vViJsR7JV_psJsTaaC0zQd3kq/pub?w=675&amp;h=100">>
 
 **Here's how it looks**
 
-> This is how we create a block quote in jupyter notebook
+> This is how we create a block quote in Jupyter notebook
 > > If you would like a quote to be nested with your your block quote you can add one more greater than sign.
 > > > Or if you REALLY wanted a nest within a nest you can add an additional greater than sign.
 
 _______________________________________________________________________________________
 ## Headings
-There are six different options for headings. The more #'s there are the smaller the heading. See below.
+There are six different options for headings. The more hashtags there are the smaller the heading. See below.
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTxBIrco2cu7NsnyKVJ9KlYE0afuo112113jetl8OiBmmcYrVFeO5WufFVSTUZ1aZO6MvY9kX6-kC0Y/pub?w=276&amp;h=288">
 
@@ -34,7 +34,7 @@ There are six different options for headings. The more #'s there are the smaller
 
 _______________________________________________________________________________________
 ## Hyperlinks
-If you would like to add a hyperlink that doesn't show the entire weblink you can format the link where you click [here](www.google.com) to access the webpage. (I just linked mine to Google). Feel free to type in whatever words you would like in place of "here" and that is what will show up in your notebook.
+If you would like to add a hyperlink that doesn't show the url you can format the link where you click [here](www.google.com) to access the webpage. (I linked mine to Google). Feel free to type in whatever words you would like in place of "here" and that is what will show up in your notebook.
 
 **Here's how you do it**
 
@@ -42,7 +42,7 @@ If you would like to add a hyperlink that doesn't show the entire weblink you ca
 
 _______________________________________________________________________________________
 ## Images
-Notice all of the images in my blog? Well here is how I do it! 
+Images have the ability to make your blog or Jupyter notebook better. These visualizations allow the reader to have a better understanding of what you are saying or to be able to see the data visualization that supports your point. 
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSWdn7MGPWxargMt7tHC5PRcvNy21WZ4w3kwKi_IVkoxeHjrE92lRPuu3dUF9A8SKiTQm74F84U_3h3/pub?w=284&amp;h=100">
 
@@ -50,7 +50,7 @@ Notice all of the images in my blog? Well here is how I do it!
 
 _______________________________________________________________________________________
 ## Line Breaks
-You have no idea how many times I have tried to make a line break only to hit shift+enter and see no break whatsoever. Therefore, if you need a line break in your jupyter notebook markdown make sure to hit enter *two or more times*, depending on how large you would like the break.
+You have no idea how many times I have tried to make a line break only to hit shift+enter and see no break whatsoever. Therefore, if you need a line break in your Jupyter notebook markdown make sure to hit enter *two or more times*, depending on how large you would like the break.
 
 **Here's how it looks**
 
@@ -138,7 +138,7 @@ BLUE:
 
 <div class="alert alert-block alert-info">
 
-Here is a blue background box. Usually this is used to notes within the Jupyter notebook. It helps catch the attention of your reader. </div>
+Here is a blue background box. Usually this is used to make notes within the Jupyter notebook. It helps catch the attention of your reader. </div>
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTspTuSI1fVV-R71j6CHKaKX2F6A5__GYebAOMo6WvP8nlon3dVjpEvDmfLxj3vXE_i9UyLbWrFPdJq/pub?w=670&amp;h=100">
 
@@ -153,7 +153,7 @@ YELLOW:
 
 <div class="alert alert-block alert-warning">
 
-Here is the yellow background box. Usually this is used for mathematical formuals or small warning messages.  </div>
+Here is the yellow background box. Usually this is used for mathematical formulas or small warning messages.  </div>
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSG7kdT8I7RPN2ChUxr1enUFQaS8Kix65nPFO6YjtZE5Znv1IgkRGydn_-lYBRFENlTPwecd-KqhU6V/pub?w=555&amp;h=100">
 
