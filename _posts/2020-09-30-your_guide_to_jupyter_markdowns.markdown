@@ -206,6 +206,9 @@ ________________________________________________________________________________
 
 _______________________________________________________________________________________
 ## Highlight your text
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vS2HG590P17qoFwfxkWfVkXGki4KlWa7pOegZl7Z_M7_sIQA73GMo8FMCCAtWv8Mzy4Yiouw3NV6Hky/pub?w=729&amp;h=100">
+
+
 <code style="background:yellow;color:black">Look here I am highlighting my text. The background color I chose is yellow and the font is black.</code>
 
 <code style="background:blue;color:yellow">Let's change it up. Now I am highlighting in blue and my font is yellow. See how easily I can change that up?</code>
@@ -213,13 +216,4 @@ ________________________________________________________________________________
 ## Embedding your tableu
 %%HTML and then paste your embed link provided from tableu prior to publishing.
 
-%%HTML 
-https://public.tableau.com/views/FunctionalityofWaterPumpsUsingLatitudeandLongitude/Sheet1?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link
-
-
-%%HTML 
-<div class='tableauPlaceholder' id='viz1601566103164' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fu&#47;FunctionalityofWaterPumpsUsingLatitudeandLongitude&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FunctionalityofWaterPumpsUsingLatitudeandLongitude&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fu&#47;FunctionalityofWaterPumpsUsingLatitudeandLongitude&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601566103164');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-
-%%HTML 
-<div class='tableauPlaceholder' id='viz1601559908930' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fu&#47;FunctionalityofWaterPumpsUsingLatitudeandLongitude&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FunctionalityofWaterPumpsUsingLatitudeandLongitude&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fu&#47;FunctionalityofWaterPumpsUsingLatitudeandLongitude&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601559908930');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRc7W0f9T20XIczeuqP3gRZDWnHIgcYrfEf2krHESnVW4K_nt6ahoY7fcYCYUBRb1xCmYEJpal_IhoF/pub?w=924&amp;h=441">
