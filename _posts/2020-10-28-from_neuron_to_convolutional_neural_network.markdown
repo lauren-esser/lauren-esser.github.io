@@ -21,10 +21,28 @@ Neurons are specialized cells in your body that uses electrial impluses to send 
 Convolutional Neural Networks process pretty much the same was as the neurons in our brains. The neural networks are structured in different layers that receive an input. In the case of CNN's its usually an image. Each part of the image has a specfic weight, the higher the weight the strong that signal is and gets pushed through to the next layer. 
 
 
-maybe neuron sends messages from the eyes to the brian to recognize differences between faces. After years of training it can now recognize differences in each face you come across to know the difference between Adam and Derek. 
 
 <img src = "https://miro.medium.com/max/1000/1*vkQ0hXDaQv57sALXAJquxA.jpeg">
 
+
+Do you see how just with a neuron there is an input into the Convolutional Neural Network? In this case it is an image of a car. The second layer or "neuron" would be the convolution layer. 
+
+<img src = "https://miro.medium.com/max/1920/1*D6iRfzDkz-sEzyjYoVZ73w.gif">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+maybe neuron sends messages from the eyes to the brian to recognize differences between faces. After years of training it can now recognize differences in each face you come across to know the difference between Adam and Derek. 
 
 How a CNN does it:
 
