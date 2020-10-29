@@ -5,7 +5,7 @@ date:       2020-10-28 16:55:11 -0400
 permalink:  from_neuron_to_convolutional_neural_network
 ---
 
-<img src = "https://media3.giphy.com/media/MVU2q8gaqMDr6wE2x1/giphy.gif">
+<img src = "https://media3.giphy.com/media/MVU2q8gaqMDr6wE2x1/giphy.gif" class = "center">
 
 It's 2020 and so much has changed, while we aren't quite yet living like the Jetson's with our flying cars, alot of progress has been made. Look around you: from driverless cars, face recognition to unlock your smart phone, and automatic facebook tags. Image classification is in full use. We even use image classification to identify sicknesses such as pneumonia or cancer. How do computers do this? The answer lies in CNNs or Convolutional Neural Networks. 
 
