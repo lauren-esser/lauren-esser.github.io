@@ -47,7 +47,7 @@ Convolutional Neural Networks hold so much potential for the future. From advanc
 
 
 
-**Sources: **
+**Sources:**
 
 https://medium.com/towards-artificial-intelligence/convolutional-neural-networks-for-dummies-afd7166cd9e
 
