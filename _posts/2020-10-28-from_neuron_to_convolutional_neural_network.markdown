@@ -18,18 +18,33 @@ Neurons are specialized cells in your body that uses electrial impluses to send 
 
 ### A LOT
 
-Convolutional Neural Networks process pretty much the same was as the neurons in our brains. The neural networks are structured in different layers that receive an input. In the case of CNN's its usually an image. Each part of the image has a specfic weight, the higher the weight the strong that signal is and gets pushed through to the next layer. 
+Convolutional Neural Networks process pretty much the same was as the neurons in our brains. The neural networks are structured in different layers that receive an input. In the case of CNN's its an image. Each part of the image has a specfic weight, the higher the weight the strong that signal is and gets pushed through to the next layer. 
 
 
 
 <img src = "https://miro.medium.com/max/1000/1*vkQ0hXDaQv57sALXAJquxA.jpeg">
 
 
-Do you see how just with a neuron there is an input into the Convolutional Neural Network? In this case it is an image of a car. The second layer or "neuron" would be the convolution layer. 
+Do you see how just with a neuron there is an input into the Convolutional Neural Network? In this case it is an image of a car. The second layer or "neuron" would be the convolution layer. Seen in the gif below this layer reads the image a section at a time (usually sized 3x3 or 5x5) and moves right until it completes the width of the image. It then moves down a row and completes the same process until the entire image is read. You may notice in the above image with the car that there is more than one convolution layer present. These layers operate similarly except that the earlier layer will capture low-level features like color, edges, and gradient orientation. As we move onto the next convolutional layer the details becomes more complex. There is potential for errors with convolutional layers including the image shrinking or the edges becoming less clear. To help fight against this the data scientist can use something called padding. Padding is basically adding a layer of pixels around the edge of the image in order to preserve the true size of the image when convolution is occurring. 
 
 <img src = "https://miro.medium.com/max/1920/1*D6iRfzDkz-sEzyjYoVZ73w.gif">
 
 
+Up next we can see the pooling layer. 
+
+
+
+- down sample or reducing the spatial size of previous convolutional layers. By downsampling the convolutional layer it aids in decreasing the computational power required to execute the model. 
+- Two types of pooling:
+- Max pooling (most common) - takes a summary of the convolutions from a larger section of the original image. 
+- Average pooling - returns the average of all values from the image. 
+- Important hyperparameters: filter size and stride. 
+
+<img src = "https://qph.fs.quoracdn.net/main-qimg-939c3123c48e27301f1a89c0a299dca8">
+
+POOLING
+ACTTIVATION
+FLATTEN
 
 
 
@@ -41,12 +56,6 @@ Do you see how just with a neuron there is an input into the Convolutional Neura
 
 
 
-
-maybe neuron sends messages from the eyes to the brian to recognize differences between faces. After years of training it can now recognize differences in each face you come across to know the difference between Adam and Derek. 
-
-How a CNN does it:
-
-Boat image explaination here and gif?
 
 Step one: Upload Image
 Step two: Perform Convolution
@@ -63,7 +72,9 @@ Step eight: Final layer provides a probability for each class
 
 Sources: 
 https://medium.com/towards-artificial-intelligence/convolutional-neural-networks-for-dummies-afd7166cd9e
-
+https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+https://learn.co/tracks/module-4-data-science-career-2-1/appendix/convolutional-neural-networks/convolutional-neural-networks
+https://www.quora.com/What-is-max-pooling-in-convolutional-neural-networks
 
 
 
