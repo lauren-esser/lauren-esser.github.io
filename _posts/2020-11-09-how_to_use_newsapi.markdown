@@ -50,7 +50,7 @@ news_titles = []
 for article in news_headlines['articles']:
   news_titles.append(article['title'])
   print(article['title'])
-	```
+```
 
 
 ---
