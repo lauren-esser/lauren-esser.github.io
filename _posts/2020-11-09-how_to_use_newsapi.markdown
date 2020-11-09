@@ -43,14 +43,12 @@ We will look at **Top headlines** first. You will want to use Top headlines for 
 - *sources*: If choosing sources it is important to note that this parameter cannot be used with country or category. Sources allows you to select which news source or blog you would like to take information from. 
 
 Example code:
-```
-news_headlines = newsapi.get_top_headlines(language = 'en', country = 'us', 
+```news_headlines = newsapi.get_top_headlines(language = 'en', country = 'us', 
                                            category = 'sports')
 news_titles = []
 for article in news_headlines['articles']:
   news_titles.append(article['title'])
-  print(article['title'])
-```
+  print(article['title'])```
 
 
 ---
@@ -77,7 +75,7 @@ news_titles_everything = []
 for article in news_headlines_everything['articles']:
   news_titles_everything.append(article['title'])
   print(article['title'])
-	```
+```
 	
 	
 ---
