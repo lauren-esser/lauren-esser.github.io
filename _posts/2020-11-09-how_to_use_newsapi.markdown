@@ -52,7 +52,10 @@ for article in news_headlines['articles']:
   print(article['title'])
 	```
 
+
 ---
+
+
 ### Everything
 The second main endpoint avilable is **Everything**. This endpoint is exactly as it sounds, it has the potential to return everything to you. It searches through millions of artcles from current news posts and blogs to older, smaller articles as well. Everything should be used for discovery and analysis of newstitles. Everything has additional parameters to help specify your search.
 
@@ -75,6 +78,10 @@ for article in news_headlines_everything['articles']:
   news_titles_everything.append(article['title'])
   print(article['title'])
 	```
+	
+	
+---
+	
 	
 ### Sources
 Used to retrieve a small subset of the publishers that NewsApi indexes from. This is a useful endpoint to use because it allows you to see which publishers are available on the API. Just like the above endpoints category, language, and country are the parameters that can be used.
