@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to Use NewsApi"
-date:       2020-11-09 19:12:59 +0000
+date:       2020-11-09 14:13:00 -0500
 permalink:  how_to_use_newsapi
 ---
 
@@ -31,7 +31,7 @@ In your jupyter notebook you need to fetch the newsapi library.
 ## Step 3: Identify Your Endpoint
 NewsApi has two main endpoints and one minor endpoint avilable (farther information can be found [here](https://newsapi.org/docs/endpoints).) The two main points are Top headlines and Everything while the minor endpoint is Sources, all three will be covered in detail below.
 
-##### Top Headlines
+### Top Headlines
 We will look at **Top headlines** first. You will want to use Top headlines for up to date information on breaking news and headlines. When accessing information there are many built in parameters that are very helpful to use, I will cover a couple of these below:
 
 - *country*: If you are using the newspaper headlines to make predictions in America you are not going to want to receive headlines in Britian or France. This parameter allows you to use the 2-letter ISO code of the country you desire to receive information on. Therefore if you wanted news articles only from America you would add ```country - 'us'```
@@ -53,7 +53,7 @@ for article in news_headlines['articles']:
 	```
 
 ---
-##### Everything
+### Everything
 The second main endpoint avilable is **Everything**. This endpoint is exactly as it sounds, it has the potential to return everything to you. It searches through millions of artcles from current news posts and blogs to older, smaller articles as well. Everything should be used for discovery and analysis of newstitles. Everything has additional parameters to help specify your search.
 
 - *q or qinTitle*: q is used to search for keywords or phrases within the article title and body. For an exact match place quotes around your search or to find specific key words you can use the AND / OR / Not keywords. Ex: stocks AND bonds NOT mutual funds. qinTitle is the same a q except that the search will only take place in the article title.
@@ -76,11 +76,12 @@ for article in news_headlines_everything['articles']:
   print(article['title'])
 	```
 	
-	##### Sources
-	Used to retrieve a small subset of the publishers that NewsApi indexes from. This is a useful endpoint to use because it allows you to see which publishers are available on the API. Just like the above endpoints category, language, and country are the parameters that can be used.
+### Sources
+Used to retrieve a small subset of the publishers that NewsApi indexes from. This is a useful endpoint to use because it allows you to see which publishers are available on the API. Just like the above endpoints category, language, and country are the parameters that can be used.
 	
-	Example code: 
-	```
+Example code: 
+	
+```
 news_sources = newsapi.get_sources()
 news_sourcecs_list = []
 for sources in news_sources['sources']:
