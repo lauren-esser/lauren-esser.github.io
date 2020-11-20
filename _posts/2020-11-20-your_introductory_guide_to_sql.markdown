@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Your Introductory Guide to SQL "
-date:       2020-11-20 18:29:28 +0000
+date:       2020-11-20 13:29:29 -0500
 permalink:  your_introductory_guide_to_sql
 ---
 
