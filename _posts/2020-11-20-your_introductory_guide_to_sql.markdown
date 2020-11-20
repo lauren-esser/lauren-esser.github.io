@@ -50,8 +50,11 @@ Shown below is the basic outline of a SQL query:
 
 q = 
 ```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5 
+
 FROM table t 
+
 JOIN othertable o 
+
 ON  t.records = o.records;'''```
 				
 ## '''Quotation Marks '''
