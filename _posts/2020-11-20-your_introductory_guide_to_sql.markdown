@@ -27,6 +27,7 @@ Step 3. **Create** ```pysqldf = lambda q: sqldf(q, globals())``` This allows for
 
 Step 4. 
 **q =** 
+
 ```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change
            
 					            FROM stocks s
