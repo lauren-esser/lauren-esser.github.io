@@ -45,15 +45,16 @@ Step 5: **Final Product:**
 	
 ### So what does that even mean?
 
-Shown above is the basic outline of a SQL query:
+Shown below is the basic outline of a SQL query:
 
-q = ```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5```
+q = 
+```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5 
         
-				```FROM table t```
+				 FROM table t 
 		    
-				``` JOIN othertable o```
+				  JOIN othertable o 
 		    
-				``` ON  t.records = o.records;'''```
+				 ON  t.records = o.records;'''```
 				
 #### '''    '''
 
