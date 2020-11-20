@@ -14,7 +14,8 @@ While conducting a job search for "Data Scientist" or "Data Analyst" three lette
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRTtTxgqWafSiPUYgxGYbv3a-zoUuYI0WNvJAKwtIXqPFkf_ze0LfL3Q1omX1faUxTtGZrA4vzfVqhW/pub?w=436&amp;h=191">
 
 Here are the steps to take to merge these to tables together using pandas SQL:
-Step 1. **Install pandassql on your machine** pandasql is a library that allows users query DataFrames using SQL style syntax within pandas.
+
+Step 1. **Install pandassql on your machine.** pandasql is a library that allows users query DataFrames using SQL style syntax within pandas.
 
 ```pip install pandasql```
 
@@ -24,17 +25,19 @@ Step 2. **Import pandasql**
 
 Step 3. **Create** ```pysqldf = lambda q: sqldf(q, globals())``` This allows for quicker and easier queries. 
 
-Step 4. **q =** ```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change```
+Step 4. 
+**q =** 
+```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change
            
-					 ```FROM stocks s```
+					            FROM stocks s
 						
-						```JOIN news n```
+					            JOIN news n 
 						
-						```ON n.date = s.date:'''```
+						          ON n.date = s.date:'''  
 								 
-		```df = pysqldf(q)```
+	 df = pysqldf(q)
 		
-		```df.head()```
+		df.head()```
 		
 Step 5: **Final Product:**
 	
