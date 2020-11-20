@@ -50,18 +50,15 @@ Shown below is the basic outline of a SQL query:
 
 q = 
 ```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5 
-        
-				 FROM table t 
-		    
-				  JOIN othertable o 
-		    
-				 ON  t.records = o.records;'''```
+FROM table t 
+JOIN othertable o 
+ON  t.records = o.records;'''```
 				
-#### '''Quotation Marks '''
+## '''Quotation Marks '''
 
 You may notice that both queries above start and end with three quotation marks. This allows the us to use multiple lines to complete a query. 
 
-#### SELECT:
+## SELECT:
 
 Select chooses which columns will be merged into the new dataframe. There are three different strategies for choosing these columns. 
 
@@ -71,9 +68,17 @@ Select chooses which columns will be merged into the new dataframe. There are th
 
 **THREE**: Step three is what is shown above. After ```FROM table``` I wrote a t, this is used as an abbreviation to indicate anything with a t in front of it is from "table". Therefore in our first example date, movement, price, and daily_change are all from the stocks dataframe because they have an s infront of their name. 
 
-#### FROM:
-#### JOIN
-#### ON
-#### WHERE
+## FROM:
+
+
+## JOIN
+## ON
+## WHERE
+
+The ```WHERE``` caluse filters the query results by a specific condition. Where is very useful if you are grabbing information from one database. If I had a dataframe of all of the stocks I could ```SELECT * FROM stocks WHERE stock_name = S&P500```. This would grab any stock information labeled S&P500 for the creation of the dataframe. 
+
+## ORDER BY
+
+## LIMIT
 		 
 
