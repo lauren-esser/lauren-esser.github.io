@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Your Introductory Guide to SQL "
+title:      "Your Introductory Guide to Pandas SQL "
 date:       2020-11-20 13:29:29 -0500
 permalink:  your_introductory_guide_to_sql
 ---
@@ -14,17 +14,17 @@ While conducting a job search for "Data Scientist" or "Data Analyst" three lette
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRTtTxgqWafSiPUYgxGYbv3a-zoUuYI0WNvJAKwtIXqPFkf_ze0LfL3Q1omX1faUxTtGZrA4vzfVqhW/pub?w=436&amp;h=191">
 
 Here are the steps to take to merge these to tables together using pandas SQL:
-Step 1. Install pandassql on your machine
+Step 1. **Install pandassql on your machine** pandasql is a library that allows users query DataFrames using SQL style syntax within pandas.
 
 ```pip install pandasql```
 
-Step 2. Import pandasql
+Step 2. **Import pandasql**
 
 ``` from pandasql import sqldf```
 
-Step 3. Create ```pysqldf = lambda q: sqldf(q, globals())```
+Step 3. **Create** ```pysqldf = lambda q: sqldf(q, globals())``` This allows for quicker and easier queries. 
 
-Step 4. q = ```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change```
+Step 4. **q =** ```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change```
            
 					 ```FROM stocks s```
 						
@@ -41,3 +41,12 @@ Step 5: **Final Product:**
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQz72aEXPDu00vEvD0SRM2R8zVwJAwnqxvLfj3DVEXihh3um79JagQ5fIdPiajT0St9GULAsmvkkhEA/pub?w=693&amp;h=193">
 	
 ### So what does that even mean?
+
+Shown above is the basic outline of a SQL query:
+
+q = ```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5
+             FROM table t
+		         JOIN othertable o
+		         ON  t.records = o.records;'''```
+		 
+
