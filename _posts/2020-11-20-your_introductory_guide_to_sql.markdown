@@ -28,7 +28,8 @@ Step 3. **Create** ```pysqldf = lambda q: sqldf(q, globals())``` This allows for
 Step 4. 
 **q =** 
 
-```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change
+```
+'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change
            
 					            FROM stocks s
 						
@@ -38,30 +39,33 @@ Step 4.
 								 
 	 df = pysqldf(q)
 		
-		df.head()```
+		df.head()
+		```
 		
 Step 5: **Final Product:**
 	
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQz72aEXPDu00vEvD0SRM2R8zVwJAwnqxvLfj3DVEXihh3um79JagQ5fIdPiajT0St9GULAsmvkkhEA/pub?w=693&amp;h=193">
 	
-### So what does that even mean?
+## So what does that even mean?
 
 Shown below is the basic outline of a SQL query:
 
 q = 
-```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5 
+```
+'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5 
 
 FROM table t 
 
 JOIN othertable o 
 
-ON  t.records = o.records;'''```
+ON  t.records = o.records;'''
+```
 				
-## '''Quotation Marks '''
+### '''Quotation Marks '''
 
 You may notice that both queries above start and end with three quotation marks. This allows the us to use multiple lines to complete a query. 
 
-## SELECT:
+### SELECT:
 
 Select chooses which columns will be merged into the new dataframe. There are three different strategies for choosing these columns. 
 
@@ -71,17 +75,21 @@ Select chooses which columns will be merged into the new dataframe. There are th
 
 **THREE**: Step three is what is shown above. After ```FROM table``` I wrote a t, this is used as an abbreviation to indicate anything with a t in front of it is from "table". Therefore in our first example date, movement, price, and daily_change are all from the stocks dataframe because they have an s infront of their name. 
 
-## FROM:
+### FROM:
 
 
-## JOIN
-## ON
-## WHERE
+### JOIN
+### ON
+### WHERE
 
 The ```WHERE``` caluse filters the query results by a specific condition. Where is very useful if you are grabbing information from one database. If I had a dataframe of all of the stocks I could ```SELECT * FROM stocks WHERE stock_name = S&P500```. This would grab any stock information labeled S&P500 for the creation of the dataframe. 
 
-## ORDER BY
+### ORDER BY
 
-## LIMIT
-		 
+ORDER BY is a tool that aids in organization. When pulling results order by allows you to filter results by a specific feature/column. Perhaps I wanted to order my stocks by Price, therefore my query would look like this:
+```SELECT * FROM stocks WHERE stock_name = S&P500 ORDER BY price DESC``` This would return the S&P500 stocks in descending price order. The default for order by is ascending therefore if you wanted an ascending list you could just drop the DESC from the example above. 
+
+### LIMIT
+
+Limit allows you to limit how many results you get. Perhaps the full dataframe would be thousands of rows and you only want 200 rows. To limit just add ```LIMIT 200``` to the end of your query. 
 
