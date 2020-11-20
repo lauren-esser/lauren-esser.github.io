@@ -14,26 +14,27 @@ While conducting a job search for "Data Scientist" or "Data Analyst" three lette
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRTtTxgqWafSiPUYgxGYbv3a-zoUuYI0WNvJAKwtIXqPFkf_ze0LfL3Q1omX1faUxTtGZrA4vzfVqhW/pub?w=436&amp;h=191">
 
 Here are the steps to take to merge these to tables together using pandas SQL:
-1. Install pandassql on your machine
+Step 1. Install pandassql on your machine
 
 ```pip install pandasql```
 
-2. Import pandasql
+Step 2. Import pandasql
 
 ``` from pandasql import sqldf```
 
-3. Create ```pysqldf = lambda q: sqldf(q, globals())```
+Step 3. Create ```pysqldf = lambda q: sqldf(q, globals())```
 
-4. q = ```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change```
+Step 4. q = ```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change```
             ```FROM stocks s```
 						```JOIN news n```
 						```ON n.date = s.date:'''```
 								 
 		```df = pysqldf(q)```
+		
 		```df.head()```
 		
-		**End Product:**
+Step 5: **Final Product:**
 	
-	<img src="https://docs.google.com/drawings/d/e/2PACX-1vQz72aEXPDu00vEvD0SRM2R8zVwJAwnqxvLfj3DVEXihh3um79JagQ5fIdPiajT0St9GULAsmvkkhEA/pub?w=693&amp;h=193">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQz72aEXPDu00vEvD0SRM2R8zVwJAwnqxvLfj3DVEXihh3um79JagQ5fIdPiajT0St9GULAsmvkkhEA/pub?w=693&amp;h=193">
 	
-	### So what does that even mean?
+### So what does that even mean?
