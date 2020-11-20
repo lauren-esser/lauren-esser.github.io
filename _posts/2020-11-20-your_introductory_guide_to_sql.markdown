@@ -25,8 +25,11 @@ Step 2. Import pandasql
 Step 3. Create ```pysqldf = lambda q: sqldf(q, globals())```
 
 Step 4. q = ```'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change```
-            ```FROM stocks s```
+           
+					 ```FROM stocks s```
+						
 						```JOIN news n```
+						
 						```ON n.date = s.date:'''```
 								 
 		```df = pysqldf(q)```
