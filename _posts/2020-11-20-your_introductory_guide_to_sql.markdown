@@ -29,18 +29,14 @@ Step 4.
 **q =** 
 
 ```
-'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change
-           
-					            FROM stocks s
-						
-					            JOIN news n 
-						
-						          ON n.date = s.date:'''  
+'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change       
+ FROM stocks s					
+ JOIN news n 					
+ ON n.date = s.date:'''  
 								 
-	 df = pysqldf(q)
-		
-		df.head()
-		```
+df = pysqldf(q)	
+df.head()
+```
 		
 Step 5: **Final Product:**
 	
