@@ -26,13 +26,12 @@ Step 2. **Import pandasql**
 Step 3. **Create** ```pysqldf = lambda q: sqldf(q, globals())``` This allows for quicker and easier queries. 
 
 Step 4. 
-**q =** 
 
 ```
-'''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change       
- FROM stocks s					
- JOIN news n 					
- ON n.date = s.date:'''  
+q = '''SELECT s.date, s.movement, n.headline, s.Price, s.daily_change       
+      FROM stocks s					
+      JOIN news n 					
+     ON n.date = s.date:'''  
 								 
 df = pysqldf(q)	
 df.head()
@@ -46,15 +45,12 @@ Step 5: **Final Product:**
 
 Shown below is the basic outline of a SQL query:
 
-q = 
+
 ```
-'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5 
-
-FROM table t 
-
-JOIN othertable o 
-
-ON  t.records = o.records;'''
+q= '''SELECT t.col1, t.col2, t.col3, o.col4, o.col5 
+         FROM table t 
+				 JOIN othertable o 
+				 ON  t.records = o.records;'''
 ```
 				
 ### '''Quotation Marks '''
