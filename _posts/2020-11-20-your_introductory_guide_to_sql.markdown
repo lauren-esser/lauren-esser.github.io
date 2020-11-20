@@ -44,9 +44,28 @@ Step 5: **Final Product:**
 
 Shown above is the basic outline of a SQL query:
 
-q = ```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5
-             FROM table t
-		         JOIN othertable o
-		         ON  t.records = o.records;'''```
+q = ```'''SELECT t.col1, t.col2, t.col3, o.col4, o.col5```
+        
+				```FROM table t```
+		    
+				``` JOIN othertable o```
+		    
+				``` ON  t.records = o.records;'''```
+				
+#### '''    '''
+
+You may notice that both queries above start and end with three quotation marks. This allows the us to use multiple lines to complete a query. 
+
+#### SELECT:
+
+Select chooses which columns will be merged into the new dataframe. There are three different strategies for choosing these columns. 
+**ONE:** If you were to write ```'''SELECT *``` this would mean to select every single column from both dataframes to merge. 
+**TWO**: Another method would be to write ```'''SELECT col1, col2, col3, col4``` and to simply write out the column names here. The issue with this is that some data tables will have columns with the same title although they may not carry the same information. To solve for this you would follow step three.
+**THREE**: Step three is what is shown above. After ```FROM table``` I wrote a t, this is used as an abbreviation to indicate anything with a t in front of it is from "table". Therefore in our first example date, movement, price, and daily_change are all from the stocks dataframe because they have an s infront of their name. 
+
+#### FROM:
+#### JOIN
+#### ON
+#### WHERE
 		 
 
