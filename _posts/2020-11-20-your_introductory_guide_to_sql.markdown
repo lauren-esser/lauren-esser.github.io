@@ -5,6 +5,7 @@ date:       2020-11-20 13:29:29 -0500
 permalink:  your_introductory_guide_to_sql
 ---
 
+<img src = "https://img.favpng.com/11/4/14/microsoft-sql-server-computer-icons-oracle-corporation-oracle-database-png-favpng-k4KjYieuYpSdy2bxiud63NBP2.jpg">
 
 While conducting a job search for "Data Scientist" or "Data Analyst" three letters often pop up in the job description section. These three letters are **SQL** also known as Structured Query Language. This is a process that is used to extract and organize data that is stored in a relational database. When hearing the term relational database think of one or more data tables what share common columns. For example, below we have two tables "stocks" and "news" which contain a similar column of date. 
 
