@@ -54,12 +54,12 @@ JOIN othertable o
 ON  t.records = o.records;'''
 ```
 
-'---'				
+---				
 ### '''Quotation Marks '''
 
 You may notice that both queries above start and end with three quotation marks. This allows us to use multiple lines to complete a query. 
 
-'---'				
+"---"			
 ### SELECT ___ FROM:
 
 Select chooses which columns will be joined into the new dataframe. There are three different strategies for choosing these columns. 
