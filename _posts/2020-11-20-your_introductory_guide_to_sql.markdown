@@ -59,7 +59,7 @@ ON  t.records = o.records;'''
 
 You may notice that both queries above start and end with three quotation marks. This allows us to use multiple lines to complete a query. 
 
-"---"			
+---
 ### SELECT ___ FROM:
 
 Select chooses which columns will be joined into the new dataframe. There are three different strategies for choosing these columns. 
@@ -70,13 +70,13 @@ Select chooses which columns will be joined into the new dataframe. There are th
 
 **THREE**: Step three is what is shown in the basic outline example. After ```FROM table``` I wrote a t, this is used as an abbreviation to indicate anything with a t in front of it is from "table". Therefore in our first example date, movement, price, and daily_change are all from the stocks dataframe because they have an s in front of their name. Where as othertable has an o behind it, so anything with an o in front of it means it comes from othertable.
 
-'---'				
+---			
 ### JOIN
 
 Join is a section we could spend a LOT of time on. There are different types of joins including inner, left, right, outer, One-to-One, One-to-Many that I encourage you to look up on your own. For now we will simply cover that join allows us to select which table we are joining together with our original. As shown above we joined othertable with table.
 
 
-'---'				
+---			
 ### ON
 
 On is used to select the columns where the tables will be joined. Often times two tables share similar items, but have different column names. An example could be CustomerName in table and ClientName in othertable, both of these columns have the same information therefore we can use these columns to join our tables.
@@ -88,7 +88,7 @@ JOIN othertable o
 ON t.CustomerName = o.ClientName;'''
 ```
 
-'---'				
+---			
 ### USING
 
 Using is a way to join two tables that have identical column names.  From my original example 
@@ -107,14 +107,14 @@ USING(records);'''
 ```
 This will develop the same exact table as the previous code selecting columns 1-5 from both tables. 
 
-'---'				
+---			
 
 ### WHERE
 
 
 The ```WHERE``` clause filters the query results by a specific condition. Where is very useful if you are grabbing information from one database. If I had a dataframe of all of the stocks I could ```SELECT * FROM stocks WHERE stock_name = S&P500```. This would grab any stock information labeled S&P500 for the creation of the dataframe. 
 
-'---'				
+---			
 ### ORDER BY
 
 ORDER BY is a tool that aids in organization. When pulling results ORDER BY allows you to filter results by a specific feature/column. Perhaps I wanted to order my stocks by price, therefore my query would look like this:
@@ -123,29 +123,29 @@ ORDER BY is a tool that aids in organization. When pulling results ORDER BY allo
 
 This would return the S&P500 stocks in descending price order. The default for ORDER BY is ascending therefore if you wanted an ascending list you could just drop the DESC from the example above. 
 
-'---'				
+---				
 ### GROUP BY
 
 Perhaps you wanted to group your dataframe into specific categories, this is where GROUP BY would come into play. Keeping with our example of the S&P500 lets say we wanted to see how mnay Mondays we have stock information for. To do this we would ```'''SELECT price, day, COUNT day FROM stocks GROUP BY day;'''``` 
 
-'---'				
+---		
 ### LIMIT
 
 Limit allows you to control how many results you receive. Perhaps the full dataframe would be thousands of rows and you only want 200 rows. To limit just add ```LIMIT 200``` to the end of your query. 
 
-'---'				
+---				
 
 ### BETWEEN
 
 Perhaps you want a list of dates where the S&P500 was between $60 and $70 a share. To find this you can use the between function. ```'''SELECT price FROM stocks WHERE price BETWEEN 60 AND 70;'''```
 
-'---'				
+---		
 
 ### NULL
 Sometimes we may want to see how many nulls we have in a dataframe. To do this we can ```'''SELECT * FROM stocks WHERE price IS null;'''``` This will return any row in which price for the S&P500 is null. 
 
 
-'---'				
+---			
 
 There is so much more one can do when you really dive into SQL. In this blog post we covered the basics to get yours started. To dive deeper I encourage you to try this out on your own and for additional information start by looking up Aggregate Functions and the different types of joins. I hope you enjoyed your first step into understanding SQL.
 
