@@ -13,7 +13,7 @@ There are many popular processes for a data scientist to go through in order to 
 
 (Drawn by Chanin Nantasenamat)
 # O - Obtaining Data
-Obtaining the data can be performed in a variety of ways. Depending on what company you are working for they may provide the data for you, if not you will most likely need to web scrape, use an API, or be familiar with SQL. Once obtaining the data, it is important to take a look at what you have aquired and become familiar with your dataset. Some helpful strategies to use are:
+Obtaining data can be performed in a variety of ways. Depending on what company you are working for they may provide the data for you, if not you will most likely need to web scrape, use an API, or be familiar with SQL. Once the data is obtained, it is important to take a look at what you have acquired and become familiar with your dataset. Some helpful strategies to use are:
 
 `df.head()` - Provides first five rows of data frame.
 
@@ -22,7 +22,7 @@ Obtaining the data can be performed in a variety of ways. Depending on what comp
 `df.describe()` - Gives count, mean, std, min, 25%, 50%, 75%, and max per column.
 
 # S - Scrub Data
-Scrubbing data is one of the most time consuming aspects of a data scientists career. However it is cruical to get the data into a format that is easier to use. Usually whatever data you obtain, there will be something missing or wrong with it. Common items to look out for are Null values, abnormal numbers or symbols, or data types that need to be converted. When identifying the Nulls it is essential to decide how you are going to handle them. Code that is commonly used for handling Null values is listed below:
+Scrubbing data is one of the most time consuming aspects of a data scientist's career. However, it is crucial to get the data into a format that is easier to use. Within most obtained data there will be something missing or wrong with it. Common items to look out for are null values, abnormal numbers, symbols, or data types that must be converted. When identifying nulls it is essential to decide how you are going to handle them. Code that is commonly used for handling null values is listed below:
 
 `df.isna().sum()` - Allows you to see the quantity of null values in your data frame per column.
 
@@ -40,11 +40,13 @@ To switch data type:
 
 Other items to look for while scrubbing the data are categorical variables (sometimes this is done within the exploration step). 
 
-`cat_cols = df.select_dtypes('object').columns` - identifies any categoricals listed as an object. You will have to get familiar with your dataset to see if any categoricals are listed as numerical columns; common examples of these would be zipcode, age group, education level.
+`cat_cols = df.select_dtypes('object').columns` - identifies any categoricals listed as an object. You will have to get familiar with your dataset to see if any categoricals are listed as numerical columns; common examples of these would be zipcode, age group, and education level.
 
-Then check for multicollinearity:
+Additional Scrubbing for a Linear Regression Model
 
-1. `data = df.iloc[:, 1:20]` - Chose columns to check. Dropping whatever the dependent value is. 
+>Check for multicollinearity:
+
+1. `data = df.iloc[:, 1:20]` - Choose columns to check for multicollinearity, then drop whatever the dependent value is. 
 2. `data.corr()` 
 3.  `abs(data.corr()0 > .75` - Take a look at correlation over .75
 
@@ -63,9 +65,9 @@ Then check for multicollinearity:
 	`	if'const' in bad_vif:`
 		   ` bad_vif.remove('const')`
 	` bad vif`
-10. Then drop the bad vif columns from your data frame!
+10. Then drop the bad vif columns from your data frame.
 
-Depending on preference it is very common to run mutliple models in order to see the R2 and multicollinearity changes throughout your work flow. You may have to check multicollinearity multiple times as you mulipulate your data. Next we will run through how to normalize your data. Two popular methods are using z-score or the data's IQR. I will be modeling the IQR method below:
+Depending on preference it is very common to run mutliple models in order to see the R2 and multicollinearity changes throughout your work flow. You may have to check multicollinearity multiple times as you manipulate your data. Next we will run through how to normalize your data. Two popular methods are using z-score or the data's IQR. I will be modeling the IQR method below:
 
 1. `Q1 = data['dependent_col'].quantile(0.25)`
     `Q3 = data['dependent_col'].quantile(0.75)`
@@ -75,7 +77,7 @@ Depending on preference it is very common to run mutliple models in order to see
     `print(df_out.shape)` - Save a new dataframe with everything but your outliers. ~ sign means the opposite of, so by adding this in we save everything but the outleirs.
 
 # Explore
-Explore is where the data scientist will perform their EDA (Exploratory Data Analysis), which is another way of saying the data scientist will make visualizations to better understand the data before modeling. Visualizations included in the explore step are often distplots, kernel density estimates, scatterplots, and qqplots (must create OLS Regression before creating QQPlot). The data scientist should be checking for linearity during the Explore step.. Often times Scrub and Explore overlap in the OSEMN process. It is in this step that numpy, seaborn, pandas, and scipy come in handy. 
+Explore is where the data scientist will perform their EDA (Exploratory Data Analysis), which is another way of saying the data scientist will make visualizations to better understand the data before modeling. Visualizations included in the explore step are often distplots, kernel density estimates, scatterplots, and qqplots (must create OLS Regression before creating QQPlot). The data scientist should be checking for linearity during the Explore step. Often times Scrub and Explore overlap in the OSEMN process. It is in this step that numpy, seaborn, pandas, and scipy come in handy. 
 
 Distplot:
 `sns.distplot(data)`
@@ -92,7 +94,7 @@ QQplot:
 Kernel Density Estimates:
 `sns.kdeplot(data)`
 # Model
-The goal of modeling is inference or prediction. Inference is asking "How does X affect Y?" whereas prediction asks "How can I use X to predict Y?" There will probably be many model's completed during your work flow, but this is where your final model should be placed. Below I will show you how to create an OLS model.
+The goal of modeling in Linear Regression is inference or prediction. Inference is asking "How does X affect Y?" Whereas prediction asks "How can I use X to predict Y?" There will probably be many model's completed during your work flow, but this is where your final model should be placed. Below I will show you how to create an OLS model.
 
 `import statsmodels.formula.api as smf`
 
@@ -104,8 +106,11 @@ The goal of modeling is inference or prediction. Inference is asking "How does X
 		
 After running your final model you will want to perform Regression Model Validation using sklearn's train_test_split.
 
-`import sklearn.model_selection import train_test_split`
-`from sklearn.metrics import r2_score`
+```
+import sklearn.model_selection 
+import train_test_split
+from sklearn.metrics import r2_score
+```
 
 1. `df_train, df_test = train_test_split(data)`
 2. `df_train.shape, df_test.shape` - Check shape
@@ -117,4 +122,4 @@ After running your final model you will want to perform Regression Model Validat
 The goal is to have your training score and test score very close!
 
 # N = Interpret
-Here you will interpret your final model and identify 3+ actionable insights to give as recommendation based off of the data set. Make sure this data is presented in a way that a non-technical audience could understand and remember to always say thank you.
+Here you will interpret your final model and identify 3+ actionable insights to give as recommendations based off of the data set. Make sure this data is presented in a way that a non-technical audience could understand and remember to always say thank you.
