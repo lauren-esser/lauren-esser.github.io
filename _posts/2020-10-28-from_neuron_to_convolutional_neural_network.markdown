@@ -43,7 +43,7 @@ Important parameters to discuss in pooling is pool size and stride. Pool size is
 
 Last, but not least is our fully connected layer. Now that we have ran the convolutional and pooling layers we need to flatten our image into a column vector. This flattened vector is fed into the neural network and backpropagation is applied. The CNN has now looked at high level and low level features in the images and can begin distinguishing between the images or objects. As seen above the CNN uses flattening in order to predict that the image shows a picture of a cat rather than a dog.
 
-Convolutional Neural Networks hold so much potential for the future. From advances in cars, phones, medicine, banking safety there are countless items we can look into. Long story short, it might not be too long until we are flying with the Jetsons. 
+Convolutional Neural Networks hold so much potential for the future. From advances in cars, phones, medicine, and banking safety, there are countless items we can look into. Long story short, it might not be too long until we are flying with the Jetsons. 
 
 
 
