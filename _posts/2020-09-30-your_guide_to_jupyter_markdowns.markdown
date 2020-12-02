@@ -6,11 +6,11 @@ permalink:  your_guide_to_jupyter_markdowns
 ---
 
 
-Just because we are working with numbers and code, doesn't mean we need to have a boring Jupyter notebook. In this blog we will go over different ways to spice up your notebook and make it visually pleasing for your readers. Ready? Let's get started.
+Just because we are working with numbers and code doesn't mean we need to have a boring Jupyter notebook. In this blog we will go over different ways to spice up your notebook and make it visually pleasing for your readers. Ready? Let's get started.
 
 <h1><center>The Basics</center></h1>
 ## Block Quotes
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vThQarn8PWuEFw0my6F56HCgfYixBCZytVNTQRapiDfkmMRhv7Jj38vViJsR7JV_psJsTaaC0zQd3kq/pub?w=675&amp;h=100">>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vThQarn8PWuEFw0my6F56HCgfYixBCZytVNTQRapiDfkmMRhv7Jj38vViJsR7JV_psJsTaaC0zQd3kq/pub?w=675&amp;h=100">
 
 **Here's how it looks**
 
@@ -34,7 +34,7 @@ There are six different options for headings. The more hashtags there are the sm
 
 _______________________________________________________________________________________
 ## Hyperlinks
-If you would like to add a hyperlink that doesn't show the url you can format the link where you click [here](www.google.com) to access the webpage. (I linked mine to Google). Feel free to type in whatever words you would like in place of "here" and that is what will show up in your notebook.
+If you would like to add a hyperlink that doesn't show the url you can format the link where you click [here](https://www.google.com) to access the webpage (I linked mine to Google). Feel free to type in whatever words you would like in place of "here" and that is what will show up in your notebook.
 
 **Here's how you do it**
 
@@ -118,7 +118,7 @@ ________________________________________________________________________________
 ## Make your markdown look like code
 `Here is some code!`
 
-In order to make the above line look like code, place backticks (the symbol under the tildae ~. Top left of your keyboard) around your words. 
+In order to make the above line look like code, place backticks (the symbol under the tildae ~ top left of your keyboard) around your words. 
 
 _______________________________________________________________________________________
 ## Tasks List
