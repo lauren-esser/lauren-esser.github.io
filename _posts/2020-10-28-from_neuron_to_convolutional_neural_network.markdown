@@ -7,20 +7,20 @@ permalink:  from_neuron_to_convolutional_neural_network
 
 <center><img src = "https://media3.giphy.com/media/MVU2q8gaqMDr6wE2x1/giphy.gif" width = "300" heigh = "120"></center>
 
-It's 2020 and so much has changed, while we aren't quite yet living like the Jetson's with our flying cars, alot of progress has been made. Look around you: from driverless cars, using face recognition to unlock your smart phone, and automatic facebook tags. Image classification is in full use. We even use image classification to identify sicknesses such as pneumonia or cancer. How do computers do this? The answer lies in CNNs or Convolutional Neural Networks. 
+It's 2020 and so much has changed, while we aren't quite yet living like the Jetson's with our flying cars, alot of progress has been made. Look around you: from driverless cars, using face recognition to unlock your smart phone, and automatic facebook tags. Image classification is in full use. We even use image classification to identify sicknesses such as pneumonia or cancer. How do computers do this? The answer lies in Convolutional Neural Networks or CNNs. 
 
 
-### But before we being, lets talk about the human neuron....
+### But before we begin, lets talk about the human neuron....
 
 <center><img src = 'http://ex-m.eu/wp/wp-content/uploads/2014/11/NEURON-CHAIN.jpg' ></center>
 
 *Your crash course to human neurons is this:*
 
-Neurons are specialized cells in your body that uses electrial impluses to send chemical signals from your brain to the rest of your body. They are the reason you can do pretty much anything. As shown in the image above, multiple neurons link together and these signals jump from one neuron to the next. Neurons have a part of them called the receptors. These receptors receive the information, processes it, and then send it on to the next neuron. This means that each piece of information is not necessarily moved forward, but simply the important messages that will have an impact on the body. (If you're interested look up inhibitors and excitatory neurotransmitters) So what does this have to do with convolutional neural networks?
+Neurons are specialized cells in your body that use electrial impluses to send chemical signals from your brain to the rest of your body. They are the reason you can do pretty much anything. As shown in the image above, multiple neurons link together and these signals jump from one neuron to the next. Neurons have a part of them called receptors. These receptors receive the information, process it, and then send it on to the next neuron. This means that each piece of information is not necessarily moved forward, but only the important messages that will have an impact on the body. (If you are interested look up inhibitors and excitatory neurotransmitters.) So what does this have to do with convolutional neural networks?
 
 ### A LOT
 
-Convolutional Neural Networks process pretty much the same way as the neurons in our brains. Neural networks are structured in different layers that receive an input that needs to be passed through to each layer. In the case of CNN's its an image. Each part of the image has a specfic weight, the higher the weight the strong that signal is and gets pushed through to the next layer. In the image below, do you see how just with a neuron there is an input into the Convolutional Neural Network? In this case it is an image of a car. 
+Convolutional Neural Networks process pretty much the same way as the neurons in our brains. Neural networks are structured in different layers that receive an input that needs to be passed through to each layer. In the case of CNN's its an image. Each part of the image has a specfic weight, the higher the weight the stronger that signal is and it gets pushed through to the next layer. In the image below, do you see how just with a neuron there is an input into the Convolutional Neural Network? In this case it is an image of a car. 
 
 
 <center><img src = "https://miro.medium.com/max/1000/1*vkQ0hXDaQv57sALXAJquxA.jpeg" ></center>
@@ -30,7 +30,7 @@ The second layer or "neuron" would be the convolution layer. Seen in the gif bel
 
 <center><img src = "https://miro.medium.com/max/1920/1*D6iRfzDkz-sEzyjYoVZ73w.gif" ></center>
 
-You may notice in the above image with the car that there is more than one convolution layer present. These layers operate similarly except that the earlier layer will capture low-level features like color, edges, and gradient orientation. As we move onto the next convolutional layer the details becomes more complex. There is potential for errors with convolutional layers including image shrinking or the edges becoming less clear. To help fight against this the data scientist can use something called padding. Padding is basically adding a layer of pixels around the edge of an image in order to preserve the true size of the image when convolution is occurring. 
+You may notice in the above car image that there is more than one convolution layer present. These layers operate similarly except that the earlier layer will capture low-level features like color, edges, and gradient orientation. As we move onto the next convolutional layer the details become more complex. There is potential for errors with convolutional layers including image shrinking or the edges becoming less clear. To help fight against this the data scientist can use something called padding. Padding is basically adding a layer of pixels around the edge of an image in order to preserve the true size of the image when convolution is occurring. 
 
 <center><img src = "https://qph.fs.quoracdn.net/main-qimg-939c3123c48e27301f1a89c0a299dca8" ></center>
 
