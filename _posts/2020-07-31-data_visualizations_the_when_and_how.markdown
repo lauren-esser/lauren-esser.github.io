@@ -5,11 +5,12 @@ date:       2020-07-31 15:04:27 -0400
 permalink:  data_visualizations_the_when_and_how
 ---
 
-When discussing data visualizations it can be overwhelming deciding what type of chart to use where. Am I presenting the data clearly? Does the it make sense to the customer? Is it asthetically pleasing? Here we are going to go over some of the most common types of data visualizations and how to use the in your notebook. I will be modeling a data set using movies. 
+When discussing data visualizations it can be overwhelming deciding what type of chart to use where. Am I presenting the data clearly? Does the it make sense to the customer? Is it asthetically pleasing? Here we are going to go over some of the most common types of data visualizations and how to use them in your notebook. 
 
-*For all below graphs I am modeling seaborn. Coding information found from seaborn.pydata.org*
+*For all below graphs I am modeling seaborn. Coding information can be found at seaborn.pydata.org*
 
-**STEP ONE: import seaborn as sns**
+**STEP ONE:**
+```import seaborn as sns```
 
 **STEP TWO: Choose your visualization**
 
@@ -31,7 +32,7 @@ ax.set_xlabel('Domestic Gross in 100 million', fontsize = 16)
 
 *Barplot*:
 
-<img src = 'https://raw.githubusercontent.com/lauren-esser/Mod-1-Project/master/Images/download.png' width = '50%'>
+<img src = 'https://raw.githubusercontent.com/lauren-esser/Mod-1-Project/master/Images/download.png' width = '50%'> (Drawn by Chanin Nantasenamat)
 
 ## Distplot
 Distplots are useful to see the distribution of data. Much like a histogram, but with a line over it for additional visualization. This distplot below shoes the distribution of runtime for movies. 
